@@ -47,19 +47,24 @@ a:hover{
 
  
  #links {
-    background-color: hsl(160, 100%, 75%);
-
+    outline: 0.2em solid gray;
+    border-radius: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
 }
 
  #info {
-    background-color: aqua;
-
+    outline: 0.2em solid gray;
+    border-radius: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
 }
 
 body header nav {
     padding: 1em;
     margin: 1em;
-    background-color: cadetblue;
+    outline: 0.2em solid gray;
+    border-radius: 1em;
 }
 
 body header nav ul li {
@@ -68,16 +73,19 @@ body header nav ul li {
     margin-left: 3em;
     padding-right: 3em;
     margin-right: 3em;
-    background-color: tomato;
 }
 
 .content{
-
     margin-top: 25px;
     text-align: center;
-    background-color: blueviolet;
     height: 10vw;
-    
+}
+
+.information {
+    outline: 0.2em solid gray;
+    border-radius: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
 }
 
 
