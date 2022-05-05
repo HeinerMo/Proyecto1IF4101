@@ -37,12 +37,12 @@ a:hover{
 }
 
 .ledLogo {    
-   width: 13em;
+   width: 8em;
 }
 
 .logo {  
     height: auto;
-    width: 15em;
+    width: 11em;
 }
 
  
@@ -96,5 +96,14 @@ body header nav ul li {
         grid-template-columns: 25vw 50vw 25vw;
         text-align: center;
     }
+
+    .ledLogo {    
+        width: 13em;
+     }
+     
+     .logo {  
+         height: auto;
+         width: 15em;
+     }
 }
  
