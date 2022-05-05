@@ -1,5 +1,14 @@
 body {
     background-color: dimgray;
+    display: inline-block;
+}
+
+.divLogo {
+    border: 0;
+    margin: 0;
+    padding: 0;  
+    margin-top: 0;  
+    max-width: 90%;
 }
 
 .ledLogo {
@@ -27,11 +36,23 @@ body {
     background-color: burlywood;    
 }
 
-.leftColumn {
+body section .leftColumn {
     background-color: aquamarine;
+    float: left;
+    font-size: 1.5em;
 }
 
-.rightColumn {
+body section .rightColumn {
     background-color: aqua;
+    float: right;
+    font-size: 1.5em;
+}
+
+.topUl {
+    display: inline;
+}
+
+.topHeader {
+    text-align: center;
 }
 
