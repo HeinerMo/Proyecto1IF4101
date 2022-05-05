@@ -15,32 +15,34 @@ body {
 }
 
 .logo {    
-    max-width: 20%;
+    max-width: 10%;
     height: auto;
 }
-.content {
+body .content {
     background-color: blueviolet;
+    height: 50vh;
 }
 
-.endPage {
+body .endPage {
     background-color: burlywood;    
+    clear: both;
 }
 
 body section .leftColumn {
     background-color: aquamarine;
     float: left;
-    font-size: 1.5em;
     width: 25vw;
+    height: auto;
 }
 
 body section .rightColumn {
     background-color: aqua;
     float: right;
-    font-size: 1.5em;
     width: 25vw;
+    height: auto;
 }
 
-.topUl {
+body header nav ul li {
     display: inline;
 }
 
