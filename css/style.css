@@ -1,26 +1,29 @@
 *{
-    padding: 1em;
-    margin: 1em;
+    padding: 0;/*Interno*/
+    margin: 0; /*Externo*/
 }
 
 body {
     background-color: dimgray;
-    display: inline-block;
+    padding: 1em;
+    margin: 1em;
 }
 
 .divLogo {  
     text-align: center;
-    
+    margin-bottom: 0;
+    padding-bottom: 0;
+    padding-top: 0;
+    margin-top: 0;
 }
 
 .ledLogo {    
-    max-width: 5%;
-    height: auto;
+    width: 7em;
 }
 
 .logo {    
     height: auto;
-    width: 10vw;
+    width: 13em;
 }
 body .content {
     background-color: blueviolet;
@@ -37,6 +40,8 @@ body section .leftColumn {
     float: left;
     width: 25vw;
     height: auto;
+    padding: 1em;
+    margin: 1em;
 }
 
 body section .rightColumn {
@@ -44,13 +49,34 @@ body section .rightColumn {
     float: right;
     width: 25vw;
     height: auto;
+    padding: 1em;
+    margin: 1em;
 }
 
 body header nav ul li {
     display: inline;
+    padding: 3em;
+    margin: 3em;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+body header nav {
+    padding: 1em;
+    margin: 1em;
+    margin-top: 0;
+    padding-top: 1em;
+    background-color: deeppink;
+    border-radius: 0.6em;
 }
 
 .topHeader {
     text-align: center;
 }
 
+header div h1 {
+    margin: 1em;
+    padding: 1em;
+    margin-top: 0;
+    padding-top: 0;
+}
