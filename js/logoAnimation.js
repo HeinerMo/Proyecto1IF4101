@@ -13,8 +13,6 @@ function nextFrame() {
         
     image1.src = images[currentPos];
     image2.src = images[currentPos];
-    
-
 }
 
 nextFrame();

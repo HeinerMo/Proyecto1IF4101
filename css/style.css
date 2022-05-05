@@ -1,88 +1,92 @@
 *{
-    padding: 0;/*Interno*/
-    margin: 0; /*Externo*/
+    padding:0;
+    margin: 0;
 }
-
 body {
     background-color: dimgray;
-    padding: 1em;
-    margin: 1em;
 }
 
-.divLogo {  
+footer {
+    background-color: burlywood;    
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
     text-align: center;
-    margin-bottom: 0;
-    padding-bottom: 0;
-    padding-top: 0;
-    margin-top: 0;
+
+}
+header{
+    text-align: center;
+}
+
+a{
+    color: black;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+a:hover{
+    color: white;
+}
+
+
+.divLogo {  
+    text-align: center; 
 }
 
 .ledLogo {    
-    width: 7em;
+   width: 13em;
 }
 
-.logo {    
+.logo {  
     height: auto;
-    width: 13em;
-}
-body .content {
-    background-color: gray;
-    height: 50vh;
-    padding: 1em;
-    border-radius: 1em;
+    width: 15em;
 }
 
-body .endPage {
-    background-color: burlywood;    
-    clear: both;
-    padding: 2em;
-    border-radius: 1em
+ 
+ #links {
+    background-color: hsl(160, 100%, 75%);
+
 }
 
-body section .leftColumn {
-    background-color: aquamarine;
-    float: left;
-    width: 25vw;
-    height: auto;
-    padding: 1em;
-    margin: 1em;
-    border-radius: 1em;
-}
-
-body section .rightColumn {
+ #info {
     background-color: aqua;
-    float: right;
-    width: 25vw;
-    height: auto;
-    padding: 1em;
-    margin: 1em;
-    border-radius: 1em
-}
 
-body header nav ul li {
-    display: inline;
-    padding: 3em;
-    margin: 3em;
-    margin-top: 0;
-    padding-top: 0;
 }
 
 body header nav {
     padding: 1em;
     margin: 1em;
-    margin-top: 0;
-    padding-top: 1em;
-    background-color: deeppink;
-    border-radius: 0.6em;
+    background-color: cadetblue;
 }
 
-.topHeader {
+body header nav ul li {
+    display: inline;
+    padding-left: 3em;
+    margin-left: 3em;
+    padding-right: 3em;
+    margin-right: 3em;
+    background-color: tomato;
+}
+
+.content{
+
+    margin-top: 25px;
     text-align: center;
+    background-color: blueviolet;
+    height: 10vw;
+    
 }
 
-header div h1 {
-    margin: 1em;
-    padding: 1em;
-    margin-top: 0;
-    padding-top: 0;
+
+@media (min-width: 800px) { 
+    .content{
+        margin-top: 25px;
+        display: grid ;
+        grid-template-columns: 25vw 50vw 25vw;
+        text-align: center;
+    }
 }
+ 
