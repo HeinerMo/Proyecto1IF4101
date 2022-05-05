@@ -3,30 +3,20 @@ body {
     display: inline-block;
 }
 
-.divLogo {
-    border: 0;
-    margin: 0;
-    padding: 0;  
+.divLogo {  
     margin-top: 0;  
     max-width: 90%;
+    text-align: center;
 }
 
-.ledLogo {
-    border: 0;
-    margin: 0;
-    padding: 0;    
-    max-width: 10%;
+.ledLogo {    
+    max-width: 5%;
     height: auto;
-    display: inline-block;
 }
 
-.logo {
-    border: 0;
-    margin: 0;
-    padding: 0;    
-    max-width: 10%;
+.logo {    
+    max-width: 20%;
     height: auto;
-    display: inline-block;
 }
 .content {
     background-color: blueviolet;
@@ -40,12 +30,14 @@ body section .leftColumn {
     background-color: aquamarine;
     float: left;
     font-size: 1.5em;
+    width: 25vw;
 }
 
 body section .rightColumn {
     background-color: aqua;
     float: right;
     font-size: 1.5em;
+    width: 25vw;
 }
 
 .topUl {
