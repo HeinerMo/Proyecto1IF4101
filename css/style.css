@@ -2,15 +2,23 @@ body {
     background-color: dimgray;
 }
 
-.canvasLogo {
+.ledLogo {
     border: 0;
     margin: 0;
     padding: 0;    
-    max-width: 20%;
+    max-width: 10%;
     height: auto;
     display: inline-block;
 }
 
+.logo {
+    border: 0;
+    margin: 0;
+    padding: 0;    
+    max-width: 10%;
+    height: auto;
+    display: inline-block;
+}
 .content {
     background-color: blueviolet;
 }

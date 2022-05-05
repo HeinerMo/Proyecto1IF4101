@@ -1,16 +1,9 @@
 
-var image = new Image();
+var image1 = document.getElementById("led1")
+var image2 = document.getElementById("led2")
 var currentPos = 0;
-var images = ["img/flame1.png", 
-"img/flame2.png", 
-"img/flame3.png", 
-"img/flame4.png", 
-"img/flame5.png", 
-"img/flame6.png", 
-"img/flame7.png", 
-"img/flame8.png", 
-"img/flame9.png", 
-"img/flame10.png"]
+var images = ["img/ledoff.png", 
+"img/ledon.png"]
 
 function nextFrame() {
 
@@ -18,16 +11,10 @@ function nextFrame() {
         currentPos = 0;
     }
         
-    image.src = images[currentPos];
+    image1.src = images[currentPos];
+    image2.src = images[currentPos];
     
-    var canvas = document.getElementById('logo');
-    var ctx = canvas.getContext('2d');
-    var img = new Image();
-    img.src = 'img/logo.png'
-    canvas.width = image.width;
-    canvas.height = image.height;
-    ctx.drawImage(image,0,0);
-    ctx.drawImage(img,0,0);
+
 }
 
 nextFrame();
