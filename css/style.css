@@ -2,12 +2,13 @@
     padding:0;
     margin: 0;
 }
+
 body {
-    background-color: dimgray;
+    background-color: rgb(85, 84, 84);
 }
 
 footer {
-    background-color: burlywood;    
+    background-color: rgb(155, 131, 99);    
     position: fixed;
     left: 0;
     bottom: 0;
@@ -19,6 +20,10 @@ footer {
 footer p {
     margin-bottom: 1em;
 }
+h2 {
+    color: #063954;
+    margin-bottom: 1em;
+}
 
 header{
     text-align: center;
@@ -26,11 +31,10 @@ header{
 
 a{
     color: #156088;
-    background-color: rgba(222, 184, 135, 0.423);
-    margin: 0.5em;
+    background-color: rgb(155, 131, 99);    
     padding: 0.5em;
     border-radius: 1em;
-    margin-bottom: 1em;
+    margin: 4vw;
 }
 
 a:link{
@@ -63,7 +67,8 @@ a:hover{
     margin-left: 1em;
     margin-right: 1em;
     margin-bottom: 1em;
-    padding-top: 1em
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 
  #info {
@@ -72,15 +77,18 @@ a:hover{
     margin-left: 1em;
     margin-right: 1em;
     margin-bottom: 1em;
-    padding-top: 1em
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 
 body header nav {
+    height: auto;
     padding: 1em;
     margin: 1em;
     outline: 0.2em solid gray;
     border-radius: 1em;
 }
+
 
 body header nav ul li {
     display: inline;
@@ -88,12 +96,16 @@ body header nav ul li {
     margin-left: 3em;
     padding-right: 3em;
     margin-right: 3em;
+    margin-bottom: 1.1em;
+    margin-top: 1.1em;
+    display: contents;
 }
 
 .content{
     margin-top: 25px;
     text-align: center;
     height: 10vw;
+    padding-bottom: 1em;
 }
 
 .information {
@@ -103,6 +115,7 @@ body header nav ul li {
     margin-right: 1em;
     margin-bottom: 1em;
     padding-top: 1em;
+    padding-bottom: 1em;
 }
 
 
@@ -118,9 +131,9 @@ body header nav ul li {
         width: 13em;
      }
      
-     .logo {  
-         height: auto;
-         width: 15em;
-     }
+    .logo {  
+        height: auto;
+        width: 15em;
+    }
 }
  
