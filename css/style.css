@@ -51,6 +51,7 @@ a:hover{
     border-radius: 1em;
     margin-left: 1em;
     margin-right: 1em;
+    margin-bottom: 1em;
 }
 
  #info {
@@ -58,6 +59,7 @@ a:hover{
     border-radius: 1em;
     margin-left: 1em;
     margin-right: 1em;
+    margin-bottom: 1em;
 }
 
 body header nav {
@@ -86,6 +88,7 @@ body header nav ul li {
     border-radius: 1em;
     margin-left: 1em;
     margin-right: 1em;
+    margin-bottom: 1em;
 }
 
 
