@@ -1,12 +1,16 @@
+*{
+    padding: 1em;
+    margin: 1em;
+}
+
 body {
     background-color: dimgray;
     display: inline-block;
 }
 
 .divLogo {  
-    margin-top: 0;  
-    max-width: 90%;
     text-align: center;
+    
 }
 
 .ledLogo {    
@@ -15,8 +19,8 @@ body {
 }
 
 .logo {    
-    max-width: 10%;
     height: auto;
+    width: 10vw;
 }
 body .content {
     background-color: blueviolet;
