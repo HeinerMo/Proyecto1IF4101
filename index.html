@@ -12,6 +12,7 @@
 		<meta name="description" content="Componentes electrónicos y de robótica">
 		<meta name="viewport" content="width=device-width,initial-scale=1">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<script type="text/javascript" src="js/updateContent.js"></script>
 	</head>
 	
 	<header>
@@ -36,11 +37,22 @@
 
 			<aside id="links">
 				<h2>Categorías</h2>
+				
+				<ul>
+					<li><a href="javascript:update('capacitors')" id="capacitors">Capacitores</a></li>
+					<li><a href="javascript:update('resistors')" id="resistors">Resistencias</a></li>
+					<li><a href="javascript:update('ttl')" id="ttl">Lógica TTL</a></li>
+					<li><a href="javascript:update('cmos')" id="cmos">Lógica CMOS</a></li>
+					<li><a href="javascript:update('motors')" id="motors">Motores</a></li>
+				</ul>
 			</aside>
 
 
-			<section class="information" id="information">
+			<section class="information">
 				<h2>Productos</h2>
+				<div id="information">
+					
+				</div>
 			</section>
 
 
