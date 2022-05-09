@@ -1,10 +1,10 @@
-*{
-    padding:0;
+* {
+    padding: 0;
     margin: 0;
 }
 
 body {
-    background-color: rgb(85, 84, 84);
+    background-color: rgb(80, 80, 80);
 }
 
 .centerInfo {
@@ -12,13 +12,14 @@ body {
 }
 
 footer {
-    background-color: rgb(155, 131, 99);    
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
+    background-color: rgb(155, 131, 99);
+    position: relative;
+    bottom: 100%;
+    width: 60%;
     text-align: center;
     padding: 1em;
+    border-radius: 1em;
+    margin: auto;
 }
 
 footer p {
@@ -35,37 +36,45 @@ h2 {
     margin-bottom: 1em;
 }
 
-header{
+
+h3 {
+    color: #063954;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    text-align: left;
+}
+
+header {
     text-align: center;
 }
 
-a{
+a {
     color: #156088;
-    background-color: rgb(155, 131, 99);    
+    background-color: rgb(155, 131, 99);
     padding: 0.5em;
     border-radius: 1em;
     margin: 4vw;
 }
 
-a:link{
+a:link {
     text-decoration: none;
 }
 
-a:hover{
+a:hover {
     color: white;
     background-color: rgba(232, 211, 183, 0.71);
 }
 
 
-.divLogo {  
-    text-align: center; 
+.divLogo {
+    text-align: center;
 }
 
-.ledLogo {    
-   width: 6em;
+.ledLogo {
+    width: 6em;
 }
 
-.logo {  
+.logo {
     height: auto;
     width: 9em;
 }
@@ -76,27 +85,29 @@ a:hover{
     height: auto;
     margin: 1em;
 }
- 
- #links {
+
+#links {
     text-align: left;
     outline: 0.2em solid gray;
     border-radius: 1em;
-    margin-left: 1em;
-    margin-right: 1em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
     margin-bottom: 1em;
     padding-top: 1em;
     padding-bottom: 1em;
     padding-left: 3em;
+    background-color: rgb(70, 70, 70);
 }
 
- #info {
+#info {
     outline: 0.2em solid gray;
     border-radius: 1em;
-    margin-left: 1em;
-    margin-right: 1em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
     margin-bottom: 1em;
     padding-top: 1em;
     padding-bottom: 1em;
+    background-color: rgb(70, 70, 70)
 }
 
 body header nav {
@@ -105,6 +116,7 @@ body header nav {
     margin: 1em;
     outline: 0.2em solid gray;
     border-radius: 1em;
+    background-color: rgb(70, 70, 70)
 }
 
 body header nav ul li {
@@ -126,7 +138,7 @@ body div aside li a {
     margin-left: 0;
 }
 
-.content{
+.content {
     margin-top: 25px;
     text-align: center;
     min-height: 10vh;
@@ -140,30 +152,43 @@ body div aside li a {
 .information {
     outline: 0.2em solid gray;
     border-radius: 1em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    margin-bottom: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    display: inline-block;
+    background-color: rgb(70, 70, 70)
+}
+
+.products {
+    outline: 0.2em solid gray;
+    border-radius: 1em;
     margin-left: 1em;
     margin-right: 1em;
     margin-bottom: 1em;
     padding-top: 1em;
     padding-bottom: 1em;
-    display: inline-block;
+    display: grid;
+    grid-template-columns: 33.3333% 33.3333% 33.3333%;
+    background-color: rgb(50, 50, 50)
 }
 
 
-@media (min-width: 640px) { 
-    .content{
+@media (min-width: 640px) {
+    .content {
         margin-top: 25px;
-        display: grid ;
-        grid-template-columns: 30vw 40vw 30vw;
+        display: grid;
+        grid-template-columns: 30% 40% 30%;
         text-align: center;
     }
 
-    .ledLogo {    
+    .ledLogo {
         width: 13em;
-     }
-     
-    .logo {  
+    }
+
+    .logo {
         height: auto;
         width: 15em;
     }
 }
- 
