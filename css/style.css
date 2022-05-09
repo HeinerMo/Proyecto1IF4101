@@ -54,6 +54,7 @@ a {
     padding: 0.5em;
     border-radius: 1em;
     margin: 4vw;
+    text-overflow: clip;
 }
 
 a:link {
@@ -203,5 +204,18 @@ body div aside li a {
         display: contents;
         margin-bottom: 0.6em;
         margin-top: 0.6em;
+    }
+
+    .products {
+        outline: 0.2em solid gray;
+        border-radius: 1em;
+        margin-left: 1em;
+        margin-right: 1em;
+        margin-bottom: 1em;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        display: grid;
+        grid-template-columns: 90%;
+        background-color: rgb(50, 50, 50);
     }
 }
