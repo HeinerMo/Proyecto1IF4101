@@ -12,6 +12,8 @@
 		<meta name="description" content="Componentes electrónicos y de robótica">
 		<meta name="viewport" content="width=device-width,initial-scale=1">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<script type="text/javascript" src="js/updateContent.js"></script>
+		<script type="text/javascript" src="js/updateDetails.js"></script>
 	</head>
 	
 	<header>
@@ -31,32 +33,35 @@
 		</nav>
 	</header>
 
+	
 	<body>
 		<div class="content">
+
 			<aside id="links">
 				<h2>Categorías</h2>
+				
 				<ul>
-					<li><a>Capacitores</a></li>
-					<li><a>Resistencias</a></li>
-					<li><a>Lógica TTL</a></li>
-					<li><a>Lógica CMOS</a></li>
-					<li><a>Displays</a></li>
-					<li><a>Motores</a></li>
-					<li><a>Microcontroladores</a></li>
-					<li><a>FPGA</a></li>
+					<li><a href="javascript:update('capacitors')" id="capacitors">Capacitores</a></li>
+					<li><a href="javascript:update('resistors')" id="resistors">Resistencias</a></li>
+					<li><a href="javascript:update('ttl')" id="ttl">Lógica TTL</a></li>
+					<li><a href="javascript:update('cmos')" id="cmos">Lógica CMOS</a></li>
+					<li><a href="javascript:update('motors')" id="motors">Motores</a></li>
 				</ul>
 			</aside>
 
+
 			<section class="information" id="information">
 				<h2>Productos</h2>
+				<div id="products">
+					<p>Ninguna categoría seleccionada</p>
+				<div>
 			</section>
 
+
 			<aside id="info">
-                <h2>Detalles</h2>
+				<h2>Detalles</h2>
 			</aside>
 		</div>
-
-	</body>
 
 	<footer>
 		<p>Copy Right: Heiner Monge L. Todos los derechos reservados. 2022.</p>
