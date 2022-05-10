@@ -114,6 +114,12 @@ a:hover {
     grid-template-columns: 100%;
 }
 
+#gmap_canvas {
+    margin: 1em;
+    border-radius: 1em;
+    outline: 0.2em solid gray;
+}
+
 body header nav {
     height: auto;
     padding: 1em;
@@ -124,13 +130,11 @@ body header nav {
 }
 
 body header nav ul li {
-    padding-left: 3em;
-    margin-left: 4vw;
-    padding-right: 3em;
-    margin-right: 4vw;
+    margin: auto;
     display: inline-block;
     margin-bottom: 0.6em;
     margin-top: 0.6em;
+    
     
 }
 
