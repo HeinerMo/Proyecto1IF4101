@@ -53,8 +53,8 @@ a {
     background-color: rgb(155, 131, 99);
     padding: 0.5em;
     border-radius: 1em;
-    margin: 4vw;
-    text-overflow: clip;
+    margin: 1vh;
+    word-wrap: break-word;
 }
 
 a:link {
@@ -131,6 +131,15 @@ body header nav ul li {
     display: inline-block;
     margin-bottom: 0.6em;
     margin-top: 0.6em;
+    
+}
+
+
+body header nav ul {
+    display: grid;
+    margin-bottom: 0.6em;
+    margin-top: 0.6em;
+    
 }
 
 body div aside li {
@@ -166,6 +175,7 @@ body div aside li a {
 }
 
 .products {
+
     outline: 0.2em solid gray;
     border-radius: 1em;
     margin-left: 1em;
@@ -174,12 +184,13 @@ body div aside li a {
     padding-top: 1em;
     padding-bottom: 1em;
     display: grid;
-    grid-template-columns: 33.3333% 33.3333% 33.3333%;
-    background-color: rgb(50, 50, 50)
+    grid-template-columns: 90%;
+    background-color: rgb(50, 50, 50);
 }
 
 
-@media (min-width: 600px) {
+
+@media (min-width: 800px) {
     .content {
         margin-top: 25px;
         display: grid;
@@ -196,12 +207,8 @@ body div aside li a {
         width: 15em;
     }
 
-    body header nav ul li {
-        padding-left: 3em;
-        margin-left: 4vw;
-        padding-right: 3em;
-        margin-right: 4vw;
-        display: contents;
+    body header nav ul{
+        display: flex;
         margin-bottom: 0.6em;
         margin-top: 0.6em;
     }
@@ -215,7 +222,8 @@ body div aside li a {
         padding-top: 1em;
         padding-bottom: 1em;
         display: grid;
-        grid-template-columns: 90%;
+        grid-template-columns: 33.3333% 33.3333% 33.3333%;
         background-color: rgb(50, 50, 50);
     }
+    
 }
